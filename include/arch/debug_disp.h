@@ -8,6 +8,9 @@
  * Modifications:
  * 
  * $Log: debug_disp.h,v $
+ * Revision 1.3  2002/04/26 19:45:17  rhw2
+ * Next stage of `make lint` verification of the ELKS source code.
+ *
  * Revision 1.2  2002/02/24 17:29:00  rhw2
  * Fixed #else and #endif to not fox the bcc -ansi option. Reformatted scripts/Configure and scripts/Menuconfig to a consistent style. Removed ELKS dependency on the Linux kernel source being available.
  *
@@ -17,8 +20,8 @@
  *
  */
 
-#ifndef __debug_disp_h__
-#define __debug_disp_h__
+#ifndef LX86_ARCH_DEBUG_DISP_H
+#define LX86_ARCH_DEBUG_DISP_H
 
 #define DEBUG_DISP_PORT   0x0280
 
