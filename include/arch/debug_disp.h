@@ -8,6 +8,9 @@
  * Modifications:
  * 
  * $Log: debug_disp.h,v $
+ * Revision 1.2  2002/02/24 17:29:00  rhw2
+ * Fixed #else and #endif to not fox the bcc -ansi option. Reformatted scripts/Configure and scripts/Menuconfig to a consistent style. Removed ELKS dependency on the Linux kernel source being available.
+ *
  * Revision 1.1  2000/02/02 17:54:18  plattner
  * First checkin
  *
@@ -25,4 +28,4 @@
 #define DDISP(v)
 #endif
 
-#endif /* __debug_disp_h__ */
+#endif

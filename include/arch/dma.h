@@ -1,4 +1,4 @@
-/* $Id: dma.h,v 1.2 2001/09/08 21:52:22 rhw2 Exp $
+/* $Id: dma.h,v 1.3 2002/02/24 17:29:00 rhw2 Exp $
  * linux/include/asm/dma.h: Defines for using and allocating dma channels.
  * Written by Hennus Bergman, 1992.
  * High DMA channel support & info by Hannu Savolainen
@@ -141,5 +141,4 @@ extern int get_dma_residue();
 extern int request_dma();	/* reserve a DMA channel */
 extern void free_dma();		/* release it again */
 
-
-#endif /* __ARCH_DMA_H */
+#endif
