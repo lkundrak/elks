@@ -1,3 +1,6 @@
+/* $Header: /home/lkundrak/elks/cvs/elks/init/main.c,v 1.27 2006/11/08 22:31:01 segin Exp $ 
+ */
+
 #include <linuxmt/config.h>
 #include <linuxmt/init.h>
 #include <linuxmt/mm.h>
